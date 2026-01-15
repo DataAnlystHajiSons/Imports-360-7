@@ -436,18 +436,21 @@
 }
 
 .pagination-controls button {
-    background: none;
+    background: #ffffff;
     border: 1px solid #e2e8f0;
     padding: 8px 14px;
     margin: 0 4px;
     border-radius: 6px;
     cursor: pointer;
-    transition: background-color 0.2s ease, color 0.2s ease;
+    color: #334155;
+    font-weight: 500;
+    transition: all 0.2s ease;
 }
 
 .pagination-controls button:hover {
     background-color: var(--primary-color);
     color: #fff;
+    border-color: var(--primary-color);
 }
 
 .pagination-controls button.active {
@@ -459,4 +462,6 @@
 .pagination-controls button:disabled {
     cursor: not-allowed;
     opacity: 0.5;
+    background-color: #f1f5f9;
+    color: #94a3b8;
 }
