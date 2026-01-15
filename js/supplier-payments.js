@@ -19,7 +19,7 @@ let statusChart = null;
 
 // Table state
 let currentPage = 1;
-let rowsPerPage = 10;
+let rowsPerPage = 50;  // Changed from 10 to 50
 let sortColumn = 'due_date';
 let sortDirection = 'asc';
 
